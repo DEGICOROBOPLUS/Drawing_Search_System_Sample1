@@ -11,8 +11,9 @@
     <form id="form1" runat="server">
         <div>
         </div>
-        <p>
-            &nbsp;</p>
+        <p style="margin-left: 560px">
+            <asp:Label ID="Label3" runat="server" Text="図面検索"></asp:Label>
+        </p>
         <p style="margin-left: 280px">
             <asp:Label ID="Label1" runat="server" Text="企業ID"></asp:Label>
             <asp:TextBox ID="TextBox1" runat="server"></asp:TextBox>
