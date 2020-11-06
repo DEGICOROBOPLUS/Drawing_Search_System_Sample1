@@ -18,7 +18,7 @@
             <asp:TextBox ID="TextBox2" runat="server"></asp:TextBox>
             
         </div>
-        <asp:RadioButtonList ID="RadioButtonList1" runat="server">
+        <asp:RadioButtonList ID="RadioButtonList1" RepeatDirection="Horizontal" RepeatColumns="3" runat="server">
             <asp:ListItem>文字列検索</asp:ListItem>
             <asp:ListItem>ファイル名検索</asp:ListItem>
             <asp:ListItem>備考検索</asp:ListItem>
@@ -31,7 +31,7 @@
         <div style="margin-left: 280px">
         </div>
         <div style="margin-left: 10px">
-            <asp:ListBox ID="ListBox1" runat="server">
+            <asp:ListBox ID="ListBox1" runat="server" Height="170px" Width="182px">
                 <asp:ListItem>カテゴリ</asp:ListItem>
             </asp:ListBox>
         </div>
